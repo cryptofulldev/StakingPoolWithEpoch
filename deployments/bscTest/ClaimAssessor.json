@@ -1,0 +1,182 @@
+{
+  "address": "0x5148E4E836F58543e1b4eEc5f0fc20FdD6ebF524",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "previousOwner",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "OwnershipTransferred",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "renounceOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_from",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_cohort",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_protocolIdx",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "requestClaim",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "transferOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x48b16cb5c9d3ef5e636c1eabc2dd0906887891c130f7fe593a0eb03963e39280",
+  "receipt": {
+    "to": null,
+    "from": "0x5569BDF4e02cec3fE459796e3d0e741616029fA4",
+    "contractAddress": "0x5148E4E836F58543e1b4eEc5f0fc20FdD6ebF524",
+    "transactionIndex": 3,
+    "gasUsed": "333625",
+    "logsBloom": "0x00000000000000000000000000000000040000000000002000800000000020000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000020000000000000000000800000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000400000",
+    "blockHash": "0x7410d109d3017a754fb5e8b0078616d553245bc6e2d09fbb48a458344ba84a38",
+    "transactionHash": "0x48b16cb5c9d3ef5e636c1eabc2dd0906887891c130f7fe593a0eb03963e39280",
+    "logs": [
+      {
+        "transactionIndex": 3,
+        "blockNumber": 12495831,
+        "transactionHash": "0x48b16cb5c9d3ef5e636c1eabc2dd0906887891c130f7fe593a0eb03963e39280",
+        "address": "0x5148E4E836F58543e1b4eEc5f0fc20FdD6ebF524",
+        "topics": [
+          "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x0000000000000000000000005569bdf4e02cec3fe459796e3d0e741616029fa4"
+        ],
+        "data": "0x",
+        "logIndex": 8,
+        "blockHash": "0x7410d109d3017a754fb5e8b0078616d553245bc6e2d09fbb48a458344ba84a38"
+      }
+    ],
+    "blockNumber": 12495831,
+    "cumulativeGasUsed": "639164",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "solcInputHash": "19e0abe8682bfe9c8a283fc55415ca6e",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"previousOwner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"OwnershipTransferred\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_from\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_cohort\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_protocolIdx\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_amount\",\"type\":\"uint256\"}],\"name\":\"requestClaim\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"transferOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"owner()\":{\"details\":\"Returns the address of the current owner.\"},\"renounceOwnership()\":{\"details\":\"Leaves the contract without owner. It will not be possible to call `onlyOwner` functions anymore. Can only be called by the current owner. NOTE: Renouncing ownership will leave the contract without an owner, thereby removing any functionality that is only available to the owner.\"},\"transferOwnership(address)\":{\"details\":\"Transfers ownership of the contract to a new account (`newOwner`). Can only be called by the current owner.\"}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"constructor\":{\"notice\":\"This smart contract controls the claim request from claimants. After approving request, this function will be called manually by smart contract owner.\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/ClaimAssessor.sol\":\"ClaimAssessor\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":500},\"remappings\":[]},\"sources\":{\"@openzeppelin/contracts/access/Ownable.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n\\npragma solidity ^0.8.0;\\n\\nimport \\\"../utils/Context.sol\\\";\\n\\n/**\\n * @dev Contract module which provides a basic access control mechanism, where\\n * there is an account (an owner) that can be granted exclusive access to\\n * specific functions.\\n *\\n * By default, the owner account will be the one that deploys the contract. This\\n * can later be changed with {transferOwnership}.\\n *\\n * This module is used through inheritance. It will make available the modifier\\n * `onlyOwner`, which can be applied to your functions to restrict their use to\\n * the owner.\\n */\\nabstract contract Ownable is Context {\\n    address private _owner;\\n\\n    event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);\\n\\n    /**\\n     * @dev Initializes the contract setting the deployer as the initial owner.\\n     */\\n    constructor() {\\n        _setOwner(_msgSender());\\n    }\\n\\n    /**\\n     * @dev Returns the address of the current owner.\\n     */\\n    function owner() public view virtual returns (address) {\\n        return _owner;\\n    }\\n\\n    /**\\n     * @dev Throws if called by any account other than the owner.\\n     */\\n    modifier onlyOwner() {\\n        require(owner() == _msgSender(), \\\"Ownable: caller is not the owner\\\");\\n        _;\\n    }\\n\\n    /**\\n     * @dev Leaves the contract without owner. It will not be possible to call\\n     * `onlyOwner` functions anymore. Can only be called by the current owner.\\n     *\\n     * NOTE: Renouncing ownership will leave the contract without an owner,\\n     * thereby removing any functionality that is only available to the owner.\\n     */\\n    function renounceOwnership() public virtual onlyOwner {\\n        _setOwner(address(0));\\n    }\\n\\n    /**\\n     * @dev Transfers ownership of the contract to a new account (`newOwner`).\\n     * Can only be called by the current owner.\\n     */\\n    function transferOwnership(address newOwner) public virtual onlyOwner {\\n        require(newOwner != address(0), \\\"Ownable: new owner is the zero address\\\");\\n        _setOwner(newOwner);\\n    }\\n\\n    function _setOwner(address newOwner) private {\\n        address oldOwner = _owner;\\n        _owner = newOwner;\\n        emit OwnershipTransferred(oldOwner, newOwner);\\n    }\\n}\\n\",\"keccak256\":\"0x6bb804a310218875e89d12c053e94a13a4607cdf7cc2052f3e52bd32a0dc50a1\",\"license\":\"MIT\"},\"@openzeppelin/contracts/security/ReentrancyGuard.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n\\npragma solidity ^0.8.0;\\n\\n/**\\n * @dev Contract module that helps prevent reentrant calls to a function.\\n *\\n * Inheriting from `ReentrancyGuard` will make the {nonReentrant} modifier\\n * available, which can be applied to functions to make sure there are no nested\\n * (reentrant) calls to them.\\n *\\n * Note that because there is a single `nonReentrant` guard, functions marked as\\n * `nonReentrant` may not call one another. This can be worked around by making\\n * those functions `private`, and then adding `external` `nonReentrant` entry\\n * points to them.\\n *\\n * TIP: If you would like to learn more about reentrancy and alternative ways\\n * to protect against it, check out our blog post\\n * https://blog.openzeppelin.com/reentrancy-after-istanbul/[Reentrancy After Istanbul].\\n */\\nabstract contract ReentrancyGuard {\\n    // Booleans are more expensive than uint256 or any type that takes up a full\\n    // word because each write operation emits an extra SLOAD to first read the\\n    // slot's contents, replace the bits taken up by the boolean, and then write\\n    // back. This is the compiler's defense against contract upgrades and\\n    // pointer aliasing, and it cannot be disabled.\\n\\n    // The values being non-zero value makes deployment a bit more expensive,\\n    // but in exchange the refund on every call to nonReentrant will be lower in\\n    // amount. Since refunds are capped to a percentage of the total\\n    // transaction's gas, it is best to keep them low in cases like this one, to\\n    // increase the likelihood of the full refund coming into effect.\\n    uint256 private constant _NOT_ENTERED = 1;\\n    uint256 private constant _ENTERED = 2;\\n\\n    uint256 private _status;\\n\\n    constructor() {\\n        _status = _NOT_ENTERED;\\n    }\\n\\n    /**\\n     * @dev Prevents a contract from calling itself, directly or indirectly.\\n     * Calling a `nonReentrant` function from another `nonReentrant`\\n     * function is not supported. It is possible to prevent this from happening\\n     * by making the `nonReentrant` function external, and make it call a\\n     * `private` function that does the actual work.\\n     */\\n    modifier nonReentrant() {\\n        // On the first call to nonReentrant, _notEntered will be true\\n        require(_status != _ENTERED, \\\"ReentrancyGuard: reentrant call\\\");\\n\\n        // Any calls to nonReentrant after this point will fail\\n        _status = _ENTERED;\\n\\n        _;\\n\\n        // By storing the original value once again, a refund is triggered (see\\n        // https://eips.ethereum.org/EIPS/eip-2200)\\n        _status = _NOT_ENTERED;\\n    }\\n}\\n\",\"keccak256\":\"0x842ccf9a6cd33e17b7acef8372ca42090755217b358fe0c44c98e951ea549d3a\",\"license\":\"MIT\"},\"@openzeppelin/contracts/utils/Context.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n\\npragma solidity ^0.8.0;\\n\\n/**\\n * @dev Provides information about the current execution context, including the\\n * sender of the transaction and its data. While these are generally available\\n * via msg.sender and msg.data, they should not be accessed in such a direct\\n * manner, since when dealing with meta-transactions the account sending and\\n * paying for execution may not be the actual sender (as far as an application\\n * is concerned).\\n *\\n * This contract is only required for intermediate, library-like contracts.\\n */\\nabstract contract Context {\\n    function _msgSender() internal view virtual returns (address) {\\n        return msg.sender;\\n    }\\n\\n    function _msgData() internal view virtual returns (bytes calldata) {\\n        return msg.data;\\n    }\\n}\\n\",\"keccak256\":\"0x90565a39ae45c80f0468dc96c7b20d0afc3055f344c8203a0c9258239f350b9f\",\"license\":\"MIT\"},\"contracts/ClaimAssessor.sol\":{\"content\":\"// SPDX-License-Identifier: GPL-3.0\\r\\n\\r\\npragma solidity 0.8.0;\\r\\n\\r\\nimport \\\"@openzeppelin/contracts/access/Ownable.sol\\\";\\r\\nimport \\\"@openzeppelin/contracts/security/ReentrancyGuard.sol\\\";\\r\\nimport \\\"./interfaces/ICohort.sol\\\";\\r\\n\\r\\ncontract ClaimAssessor is Ownable, ReentrancyGuard {\\r\\n    /**\\r\\n     * This smart contract controls the claim request from claimants.\\r\\n     * After approving request, this function will be called manually by smart contract owner.\\r\\n     */\\r\\n    constructor() {}\\r\\n\\r\\n    function requestClaim(\\r\\n        address _from,\\r\\n        address _cohort,\\r\\n        uint256 _protocolIdx,\\r\\n        uint256 _amount\\r\\n    ) external onlyOwner nonReentrant {\\r\\n        ICohort(_cohort).requestClaim(_from, uint16(_protocolIdx), _amount);\\r\\n    }\\r\\n}\\r\\n\",\"keccak256\":\"0x91d94ee5f07d539843e2590385ad6c3f2c4693765b02b0eb40373c64b41747c8\",\"license\":\"GPL-3.0\"},\"contracts/interfaces/ICohort.sol\":{\"content\":\"// SPDX-License-Identifier: GPL-3.0\\r\\npragma solidity 0.8.0;\\r\\n\\r\\ninterface ICohort {\\r\\n    function requestClaim(\\r\\n        address _from,\\r\\n        uint16 _protocolIdx,\\r\\n        uint256 _amount\\r\\n    ) external;\\r\\n}\\r\\n\",\"keccak256\":\"0x74b199ab6eba062483bcacd8232c28fe19f5eb912f8c466efb75eb1256bea7fd\",\"license\":\"GPL-3.0\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5061002161001c61002a565b61002e565b6001805561007e565b3390565b600080546001600160a01b038381166001600160a01b0319831681178455604051919092169283917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e09190a35050565b6104468061008d6000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c8063715018a6146100515780638cbf54891461005b5780638da5cb5b1461006e578063f2fde38b1461008c575b600080fd5b61005961009f565b005b6100596100693660046102e4565b6100f3565b6100766101c6565b6040516100839190610325565b60405180910390f35b61005961009a3660046102c3565b6101d5565b6100a7610246565b6001600160a01b03166100b86101c6565b6001600160a01b0316146100e75760405162461bcd60e51b81526004016100de906103a4565b60405180910390fd5b6100f1600061024a565b565b6100fb610246565b6001600160a01b031661010c6101c6565b6001600160a01b0316146101325760405162461bcd60e51b81526004016100de906103a4565b600260015414156101555760405162461bcd60e51b81526004016100de906103d9565b600260015560405163051f663760e11b81526001600160a01b03841690630a3ecc6e9061018a90879086908690600401610339565b600060405180830381600087803b1580156101a457600080fd5b505af11580156101b8573d6000803e3d6000fd5b505060018055505050505050565b6000546001600160a01b031690565b6101dd610246565b6001600160a01b03166101ee6101c6565b6001600160a01b0316146102145760405162461bcd60e51b81526004016100de906103a4565b6001600160a01b03811661023a5760405162461bcd60e51b81526004016100de9061035e565b6102438161024a565b50565b3390565b600080546001600160a01b0383811673ffffffffffffffffffffffffffffffffffffffff19831681178455604051919092169283917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e09190a35050565b80356001600160a01b03811681146102be57600080fd5b919050565b6000602082840312156102d4578081fd5b6102dd826102a7565b9392505050565b600080600080608085870312156102f9578283fd5b610302856102a7565b9350610310602086016102a7565b93969395505050506040820135916060013590565b6001600160a01b0391909116815260200190565b6001600160a01b0393909316835261ffff919091166020830152604082015260600190565b60208082526026908201527f4f776e61626c653a206e6577206f776e657220697320746865207a65726f206160408201526564647265737360d01b606082015260800190565b6020808252818101527f4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572604082015260600190565b6020808252601f908201527f5265656e7472616e637947756172643a207265656e7472616e742063616c6c0060408201526060019056fea26469706673582212204a0d69576f9480666ad782f6de281beb139c7aae1e1f36282e9ed0244927f4b664736f6c63430008000033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061004c5760003560e01c8063715018a6146100515780638cbf54891461005b5780638da5cb5b1461006e578063f2fde38b1461008c575b600080fd5b61005961009f565b005b6100596100693660046102e4565b6100f3565b6100766101c6565b6040516100839190610325565b60405180910390f35b61005961009a3660046102c3565b6101d5565b6100a7610246565b6001600160a01b03166100b86101c6565b6001600160a01b0316146100e75760405162461bcd60e51b81526004016100de906103a4565b60405180910390fd5b6100f1600061024a565b565b6100fb610246565b6001600160a01b031661010c6101c6565b6001600160a01b0316146101325760405162461bcd60e51b81526004016100de906103a4565b600260015414156101555760405162461bcd60e51b81526004016100de906103d9565b600260015560405163051f663760e11b81526001600160a01b03841690630a3ecc6e9061018a90879086908690600401610339565b600060405180830381600087803b1580156101a457600080fd5b505af11580156101b8573d6000803e3d6000fd5b505060018055505050505050565b6000546001600160a01b031690565b6101dd610246565b6001600160a01b03166101ee6101c6565b6001600160a01b0316146102145760405162461bcd60e51b81526004016100de906103a4565b6001600160a01b03811661023a5760405162461bcd60e51b81526004016100de9061035e565b6102438161024a565b50565b3390565b600080546001600160a01b0383811673ffffffffffffffffffffffffffffffffffffffff19831681178455604051919092169283917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e09190a35050565b80356001600160a01b03811681146102be57600080fd5b919050565b6000602082840312156102d4578081fd5b6102dd826102a7565b9392505050565b600080600080608085870312156102f9578283fd5b610302856102a7565b9350610310602086016102a7565b93969395505050506040820135916060013590565b6001600160a01b0391909116815260200190565b6001600160a01b0393909316835261ffff919091166020830152604082015260600190565b60208082526026908201527f4f776e61626c653a206e6577206f776e657220697320746865207a65726f206160408201526564647265737360d01b606082015260800190565b6020808252818101527f4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572604082015260600190565b6020808252601f908201527f5265656e7472616e637947756172643a207265656e7472616e742063616c6c0060408201526060019056fea26469706673582212204a0d69576f9480666ad782f6de281beb139c7aae1e1f36282e9ed0244927f4b664736f6c63430008000033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {
+      "owner()": {
+        "details": "Returns the address of the current owner."
+      },
+      "renounceOwnership()": {
+        "details": "Leaves the contract without owner. It will not be possible to call `onlyOwner` functions anymore. Can only be called by the current owner. NOTE: Renouncing ownership will leave the contract without an owner, thereby removing any functionality that is only available to the owner."
+      },
+      "transferOwnership(address)": {
+        "details": "Transfers ownership of the contract to a new account (`newOwner`). Can only be called by the current owner."
+      }
+    },
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {
+      "constructor": {
+        "notice": "This smart contract controls the claim request from claimants. After approving request, this function will be called manually by smart contract owner."
+      }
+    },
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 7,
+        "contract": "contracts/ClaimAssessor.sol:ClaimAssessor",
+        "label": "_owner",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_address"
+      },
+      {
+        "astId": 114,
+        "contract": "contracts/ClaimAssessor.sol:ClaimAssessor",
+        "label": "_status",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_uint256"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}
